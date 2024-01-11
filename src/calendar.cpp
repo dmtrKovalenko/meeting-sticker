@@ -6,8 +6,8 @@
 #include <configs.h>
 
 #define REQ_DATA                                                               \
-  "{\"client_id\":\"" CLIENT_ID "\",\"client_secret\":\"" CLIENT_SECRET        \
-  "\",\"grant_type\":\"refresh_token\",\"refresh_token\":\"" REFRESH_TOKEN     \
+  "{\"client_id\":\"" CRONIFY_CLIENT_ID "\",\"client_secret\":\"" CRONIFY_CLIENT_SECRET        \
+  "\",\"grant_type\":\"refresh_token\",\"refresh_token\":\"" CRONIFY_REFRESH_TOKEN     \
   "\"}"
 
 char *copy_string(const char *str) {
