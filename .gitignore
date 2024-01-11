@@ -1,0 +1,8 @@
+.pio
+.clang_complete
+.gcc-flags.json
+.ccls
+.cache
+gif-files/
+
+src/configs.h
